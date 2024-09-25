@@ -32,6 +32,7 @@ function maxNumber(arrayOfNumbers) {
       result = arrayOfNumbers[i];
     }
   }
+
   return result;
 }
 
