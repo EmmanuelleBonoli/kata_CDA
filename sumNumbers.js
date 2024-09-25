@@ -7,7 +7,7 @@ const numbers = [1, 2, 3, 4, 5, 6];
 function sumOfEvenNumbers(arrayOfNumbers) {
   let result = 0;
 
-  for (let i = 0; i < arrayOfNumbers.lenght; i++) {
+  for (let i = 0; i < arrayOfNumbers.length; i++) {
     if (arrayOfNumbers[i] % 2 == 0) {
       result += arrayOfNumbers[i];
     }
@@ -27,7 +27,7 @@ const numbers2 = [12, 21, 67, 36, 49, 51];
 function maxNumber(arrayOfNumbers) {
   let result = 0;
 
-  for (let i = 0; i < arrayOfNumbers.lenght; i++) {
+  for (let i = 0; i < arrayOfNumbers.length; i++) {
     if (arrayOfNumbers[i] > result) {
       result = arrayOfNumbers[i];
     }
